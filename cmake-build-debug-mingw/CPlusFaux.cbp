@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Guillaume/Taff/CPlusFaux/Calculator.cpp">
+			<Option target="CPlusFaux"/>
+		</Unit>
+		<Unit filename="D:/Guillaume/Taff/CPlusFaux/Calculator.h">
+			<Option target="CPlusFaux"/>
+		</Unit>
 		<Unit filename="D:/Guillaume/Taff/CPlusFaux/main.cpp">
 			<Option target="CPlusFaux"/>
 		</Unit>

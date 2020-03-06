@@ -3,4 +3,4 @@ project(CPlusFaux)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CPlusFaux main.cpp)
+add_executable(CPlusFaux main.cpp Calculator.cpp Calculator.h)

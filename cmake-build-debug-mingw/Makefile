@@ -122,6 +122,33 @@ CPlusFaux/fast:
 	$(MAKE) -f CMakeFiles\CPlusFaux.dir\build.make CMakeFiles/CPlusFaux.dir/build
 .PHONY : CPlusFaux/fast
 
+Calculator.obj: Calculator.cpp.obj
+
+.PHONY : Calculator.obj
+
+# target to build an object file
+Calculator.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPlusFaux.dir\build.make CMakeFiles/CPlusFaux.dir/Calculator.cpp.obj
+.PHONY : Calculator.cpp.obj
+
+Calculator.i: Calculator.cpp.i
+
+.PHONY : Calculator.i
+
+# target to preprocess a source file
+Calculator.cpp.i:
+	$(MAKE) -f CMakeFiles\CPlusFaux.dir\build.make CMakeFiles/CPlusFaux.dir/Calculator.cpp.i
+.PHONY : Calculator.cpp.i
+
+Calculator.s: Calculator.cpp.s
+
+.PHONY : Calculator.s
+
+# target to generate assembly for a file
+Calculator.cpp.s:
+	$(MAKE) -f CMakeFiles\CPlusFaux.dir\build.make CMakeFiles/CPlusFaux.dir/Calculator.cpp.s
+.PHONY : Calculator.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... CPlusFaux
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Calculator.obj
+	@echo ... Calculator.i
+	@echo ... Calculator.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

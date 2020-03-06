@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CPlusFaux.dir/Calculator.cpp.obj"
   "CMakeFiles/CPlusFaux.dir/main.cpp.obj"
   "CPlusFaux.exe"
   "CPlusFaux.exe.manifest"
