@@ -25,6 +25,8 @@ void myValue(int* value);
 
 void swap(int *a, int *b);
 
-void swapTab(int param[]);
+void swapTab(int param[], int range, int *a, int *b);
+
+void addMyTab(int *array);
 
 #endif //CPLUSFAUX_CALCULATOR_H

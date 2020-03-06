@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -89,6 +90,69 @@ void swap(int *a, int *b){
     cout << "Apres swap, b : " << *b << "\n\n";
 }
 
-void swapTab(int param[]){
+void swapTab(int param[], int range, int *a, int *b){
+    cout << "Dans le tableau contenant " << 10 << " nombres:\n";
+    cout << "Le plus petit est: " << *a << "\n";
+    cout << "Le plus grand est: " << *b << "\n";
 
+    //j'ai pas tous compris
+
+   /* cout << "Les nombre(s) de params : \n";
+    for (int i = 0; i < range ; ++i) {
+        cout << param[i] <<"\n";
+    }
+
+    vector<int> tabmin;
+    cout << "SIZE : "<< tabmin.size() << "\n";
+    vector<int> tabmax;
+    for (int i = 0; i < range ; ++i) {
+        if(tabmin.size() < *a){
+            tabmin.push_back(param[i]);
+            sort(tabmin.begin(), tabmin.end());
+        } else{
+            for (int nb : tabmin){
+                if(nb < param[i]){
+                    replace(tabmin.begin(), tabmin.end(), nb, param[i]);
+                }
+            }
+        }
+
+        if(tabmax.size() < *b){
+            tabmax.push_back(param[i]);
+            sort(tabmax.begin(), tabmax.end());
+            reverse(tabmax.begin(), tabmax.end());
+        } else{
+            for (int nb : tabmax){
+                if(nb > param[i]){
+                    replace(tabmax.begin(), tabmax.end(), nb, param[i]);
+                }
+            }
+        }
+    }
+
+    cout << "Les " << *a << " nombre(s) le(s) plus petit :\n";
+    for (int nb : tabmax){
+        cout << nb <<"\n";
+    }
+
+    cout << "Les " << *b << " nombre(s) le(s) plus grand :\n";
+    for (int nb : tabmin){
+        cout << nb <<"\n";
+    }*/
+}
+
+void addMyTab(int *array){
+    int nb, i = 0;
+    int *ptr = array;
+    cout << "Veuillez entrer 5 nombres.\n";
+    do {
+        cout << "\n Nombre " << i+1 << ": ";
+        cin >> nb;
+        *(ptr + i) = nb;
+        i++;
+    } while (i < 5);
+
+    for (int j = 0; j < 5 ; ++j) {
+        cout << array[j] <<"\n";
+    }
 }

@@ -6,11 +6,10 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-    string actions[11];
-    int user_answer, nb1, nb2, range;
-    int* test;
-    int temoin = 45;
-    cout << &temoin;
+    string actions[12];
+    int to_fill[5];
+    int user_answer, nb1, nb2, nb3, nb4, nb5, range;
+
     actions[0] = "Additionner        | [1]";
     actions[1] = "Soustraire         | [2]";
     actions[2] = "Multiplier         | [3]";
@@ -21,9 +20,10 @@ int main(int argc, char *argv[]) {
     actions[7] = "Adresse -> Valeur  | [8]";
     actions[8] = "Swap               | [9]";
     actions[9] = "Swap Tab           | [10]";
-    actions[10] = "Exit               | [11]";
+    actions[10] = "Ajouter 5 nombres  | [11]";
+    actions[11] = "Exit               | [12]";
 
-    cout << "Bienvenue ! \n\n----------------8<-------------[ cut here ]------------------\n\nVeuillez selectionner l'action à faire : \n";
+    cout << "Bienvenue ! \n\n----------------8<-------------[ cut here ]------------------\n\nVeuillez selectionner l'action a faire : \n";
 
     while (true)
     {
@@ -85,7 +85,7 @@ int main(int argc, char *argv[]) {
             myValue(&test);
         }else if (user_answer == 9)
         {
-            cout << "Entrer vos 2 entiers : ";
+            cout << "Entrez vos 2 entiers : ";
             cout << "\n Entier 1: ";
             cin >> nb1;
             cout << "\n Entier 2: " ;
@@ -93,8 +93,26 @@ int main(int argc, char *argv[]) {
             swap(&nb1, &nb2);
         }else if (user_answer == 10)
         {
+            int mytab[10] = {2, 156 , 48 , 45 , 96 , 25 , 14 , 7 , 5 , 63};
+            int nb1 = mytab[0];
+            for(int i=0; i<10; i++) {
+                if(nb1 > mytab[i]) {
+                    nb1 = mytab[i];
+                }
+            }
+            int nb2 = mytab[0];
+            for(int i=0; i<10; i++) {
+                if(nb1 < mytab[i]) {
+                    nb1 = mytab[i];
+                }
+            }
+
+            swapTab(mytab, sizeof(mytab), &nb1, &nb2);
 
         }else if (user_answer == 11)
+        {
+            addMyTab(to_fill);
+        }else if (user_answer == 12)
         {
             cout << "Au Revoir\n";
             exit(0);

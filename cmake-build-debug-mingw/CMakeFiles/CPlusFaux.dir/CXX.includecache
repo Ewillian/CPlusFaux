@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/Guillaume/Taff/CPlusFaux/Calculator.h
-
-D:/Guillaume/Taff/CPlusFaux/main.cpp
+D:/Guillaume/Taff/CPlusFaux/Calculator.cpp
 iostream
 -
-Calculator.h
-D:/Guillaume/Taff/CPlusFaux/Calculator.h
-cstdint
+vector
+-
+algorithm
 -
 

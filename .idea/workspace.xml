@@ -53,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583504320713</updated>
       <workItem from="1583504324867" duration="2096000" />
-      <workItem from="1583509797155" duration="6124000" />
+      <workItem from="1583509797155" duration="15931000" />
     </task>
     <servers />
   </component>
@@ -65,22 +65,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080/-1680.32.1680.1050@0.0.1920.1080" timestamp="1583511641293" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1583515703516">
+    <state width="1877" height="378" key="GridCell.Tab.0.bottom" timestamp="1583532429309">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1680.32.1680.1050@0.0.1920.1080" timestamp="1583515703516" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1583515703516">
+    <state width="1877" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1680.32.1680.1050@0.0.1920.1080" timestamp="1583532429309" />
+    <state width="1877" height="378" key="GridCell.Tab.0.center" timestamp="1583532429309">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1680.32.1680.1050@0.0.1920.1080" timestamp="1583515703516" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1583515703516">
+    <state width="1877" height="378" key="GridCell.Tab.0.center/0.0.1920.1080/-1680.32.1680.1050@0.0.1920.1080" timestamp="1583532429309" />
+    <state width="1877" height="378" key="GridCell.Tab.0.left" timestamp="1583532429309">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1680.32.1680.1050@0.0.1920.1080" timestamp="1583515703516" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1583515703516">
+    <state width="1877" height="378" key="GridCell.Tab.0.left/0.0.1920.1080/-1680.32.1680.1050@0.0.1920.1080" timestamp="1583532429309" />
+    <state width="1877" height="378" key="GridCell.Tab.0.right" timestamp="1583532429309">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1680.32.1680.1050@0.0.1920.1080" timestamp="1583515703516" />
+    <state width="1877" height="378" key="GridCell.Tab.0.right/0.0.1920.1080/-1680.32.1680.1050@0.0.1920.1080" timestamp="1583532429309" />
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1583532212284">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1680.32.1680.1050@0.0.1920.1080" timestamp="1583532212284" />
+    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1583532212283">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1920.1080/-1680.32.1680.1050@0.0.1920.1080" timestamp="1583532212283" />
+    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1583532212283">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1920.1080/-1680.32.1680.1050@0.0.1920.1080" timestamp="1583532212283" />
+    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1583532212283">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1920.1080/-1680.32.1680.1050@0.0.1920.1080" timestamp="1583532212283" />
     <state x="656" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1583509796696">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
