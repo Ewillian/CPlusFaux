@@ -15,7 +15,7 @@ int mult(int a, int b);
 
 int divi(int a, int b);
 
-bool isImpair(int nb);
+void isImpair(int nb);
 
 void fibo(int a, int b, int range);
 

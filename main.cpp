@@ -8,7 +8,7 @@ using namespace std;
 int main(int argc, char *argv[]) {
     string actions[12];
     int to_fill[5];
-    int user_answer, nb1, nb2, nb3, nb4, nb5, range;
+    int user_answer, nb1, nb2, range;
 
     actions[0] = "Additionner        | [1]";
     actions[1] = "Soustraire         | [2]";
@@ -54,11 +54,12 @@ int main(int argc, char *argv[]) {
             cout << "\nNombre 2: ";
             cin >> nb2;
             cout << "\nResultat: " << mult(nb1, nb2) << "\n \n";
-        }else if (user_answer == 4)
+        }else if (user_answer == 5)
         {
             cout << "Quel est le nombre à verifier ?\n \nNombre: ";
             cin >> nb1;
-        }else if (user_answer == 5)
+            isImpair(nb1);
+        }else if (user_answer == 4)
         {
             cout << "Quel est le dividende (nombre divisé)? ";
             cin >> nb1;

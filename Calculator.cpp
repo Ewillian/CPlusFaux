@@ -24,12 +24,12 @@ int divi(int a, int b){
     return a / b;
 }
 
-bool isImpair(int nb){
+void isImpair(int nb){
     if(nb%2 != 0){
-        return true;
+        cout << "\n Impair ! \n\n ";
     }
     else{
-        return false;
+        cout << "\n Pair ! \n\n ";
     }
 }
 
@@ -64,7 +64,7 @@ void fibo(int a, int b, int range){
         }
         else
         {
-            cout << "\n Fin de la suite.";
+            cout << "\n Fin de la suite.\n\n";
             end = true;
         }
 
